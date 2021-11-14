@@ -9,7 +9,7 @@ document.querySelector("#loan-form").addEventListener("submit", function (e) {
   setTimeout(calculateResults, 2000);
 });
 
-// caculate function
+// calculate function
 function calculateResults(e) {
   //UI variables
   const amount = document.getElementById("amount");
